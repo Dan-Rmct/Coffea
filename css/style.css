@@ -93,3 +93,18 @@ nav a:hover{
     padding-left: 50px;
     padding-right: 50px;
 }
+
+footer div{
+    display: flex;
+    background-color: #FDDCC7;
+    color: #6A574C;
+    min-height: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content:center;
+}
+
+a:hover{
+    color: #1C0B01;
+}
