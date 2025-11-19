@@ -1,0 +1,95 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #FFFF;
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FDDCC7;
+    align-items: center;
+    min-height: 70px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #6A574C;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img{
+    height: 100px;
+    padding-left: 30px;
+}
+
+nav a{
+    padding-right: 30px;
+    font-weight: 900;
+}
+
+nav a:hover{
+    color: #1C0B01;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+.cafeteria{
+    display: flex;
+    width: 100%;
+    align-items:top;
+}
+
+.presentacion img{
+    flex: 1;
+    width: 700px;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+.eslogan{
+    font-size: 70px;
+    color: #40614E;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.parrafoEslogan{
+    font-size: 40px;
+    color: #6A574C;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.segundoContenedor{
+    display: flex;
+    width: 100%;
+    align-items:top;
+}
+
+.aboutUs{
+    font-size: 30px;
+    color: #6A574C;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.granosCafe img{
+    flex: 1;
+    width: 700px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
