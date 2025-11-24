@@ -94,6 +94,12 @@ nav a:hover{
     padding-right: 50px;
 }
 
+/*Pie de pagina*/
+
+.piePagina{
+    padding-top: 50px;
+}
+
 footer div{
     display: flex;
     background-color: #FDDCC7;
@@ -107,4 +113,111 @@ footer div{
 
 a:hover{
     color: #1C0B01;
+}
+
+/**Tarjetas Restaurante**/
+
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.wrapNombreSeccion {
+    color: #40614E;
+}
+
+.columna2.menu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    color: #6A574C;
+}
+
+.platilloMenu{
+    display: flex;
+    align-items: stretch;
+    border: 1px solid #FDDCC7;
+    border-radius: 6px;
+}
+
+.imgPlatilloMenu{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.imgPlatilloMenu img{
+    max-width: 110px;
+    max-height: 85px;
+}
+
+.nombrePlatilloMenu{
+    border: 1px solid #FDDCC7;
+    border-bottom: none;
+    border-top: none;
+    flex-basis: 60%;
+    padding: 0 1rem;
+}
+
+.precioPlatilloMenu{
+    display: flex;
+    flex-basis: 15%;
+    flex-direction: column; 
+    justify-content: center;
+    font-weight: bold;
+}
+
+.precioPlatilloMenu span{
+    display: block;
+    text-align: center; 
+}
+
+/*Galeria*/
+
+.sliderWrapper{
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 .25rem .5rem #1C0B01;
+    border-radius: .5rem;
+}
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.sliderNav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.sliderNav a{
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: #FFFF;
+    opacity: .75;
+    transition: opacity ease 250ms;
+}
+
+.sliderNav a:hover{
+    opacity: 100%;
 }
