@@ -377,3 +377,82 @@ hr{
 .menu-checkbox:checked ~ .menu-dropdown {
     display: block;
 }
+
+/* ESTILOS RESPONSIVE  */
+
+@media (max-width: 900px) {
+
+    .cafeteria,
+    .segundoContenedor {
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    .presentacion img,
+    .granosCafe img {
+        width: 90%;  
+        max-width: 500px; 
+        padding: 20px 0;  
+        height: auto;     
+    }
+
+
+    .eslogan {
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    .parrafoEslogan {
+        font-size: 20px;
+        padding: 0 20px;
+    }
+
+    .aboutUs {
+        font-size: 18px; 
+        padding: 20px;
+    }
+
+    .columna2.menu,
+    .column-3 {
+        grid-template-columns: 1fr; 
+        padding: 0 20px;
+    }
+
+    .slide {
+        height: 50vh; 
+    }
+
+    footer div {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .primeraColumna, .segundaColumna {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .platilloMenu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nombrePlatilloMenu {
+        border: none;
+        border-top: 1px solid #40614E;
+        border-bottom: 1px solid #40614E;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .precioPlatilloMenu {
+        flex-direction: row;
+        gap: 10px;
+        padding: 10px;
+        background-color: #fcefe6; 
+        width: 100%;
+    }
+}
