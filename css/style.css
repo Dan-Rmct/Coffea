@@ -282,7 +282,7 @@ font-style: italic;
     border-radius: 6px;
     display: flex;
     flex-flow: column;
-    background-image: url(/img/backPizarra.jpg);
+    background-color: #1C0B01;
     background-size: cover;
 }
 
